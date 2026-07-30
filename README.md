@@ -36,7 +36,7 @@ I'm a Python and Django developer interested in **ORM performance**, **REST APIs
     <td width="34%" align="center">
       <a href="https://pypi.org/project/django-fetch-guard/"><img alt="django-fetch-guard version" src="https://img.shields.io/pypi/v/django-fetch-guard?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
       <br/>
-      <a href="https://pypistats.org/packages/django-fetch-guard"><img alt="django-fetch-guard monthly downloads" src="https://img.shields.io/pypi/dm/django-fetch-guard?style=flat-square&color=44B78B" /></a>
+      <a href="https://pypistats.org/packages/django-fetch-guard"><img alt="django-fetch-guard monthly downloads" src="https://img.shields.io/pypi/dm/django-fetch-guard?style=flat-square&color=44B78B&cacheSeconds=86400" /></a>
       <br/><br/>
       <strong>Django 4.2–6.1</strong><br/>
       <strong>Python 3.10+</strong>
@@ -61,7 +61,7 @@ I'm a Python and Django developer interested in **ORM performance**, **REST APIs
     <td width="34%" align="center">
       <a href="https://pypi.org/project/django-index-optimizer/"><img alt="django-index-optimizer version" src="https://img.shields.io/pypi/v/django-index-optimizer?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
       <br/>
-      <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B" /></a>
+      <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B&cacheSeconds=86400" /></a>
       <br/><br/>
       <strong>Django 5.2–6.0</strong><br/>
       <strong>Python 3.10+</strong>
