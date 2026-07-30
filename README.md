@@ -12,12 +12,12 @@
 
 I'm a Python and Django developer interested in **ORM performance**, **REST APIs**, and developer tools that turn hidden application behavior into clear, testable contracts.
 
-- 🛡️ I created and maintain [**django-fetch-guard**](https://github.com/yassinbahri/django-fetch-guard).
+- 🛡️ I maintain [**django-fetch-guard**](https://github.com/yassinbahri/django-fetch-guard) and [**django-index-optimizer**](https://pypi.org/project/django-index-optimizer/).
 - 🌱 I'm growing through practical open-source contributions across the Django ecosystem.
 - 🤝 I enjoy collaborating on performance, testing, documentation, and developer experience.
 - 💬 Ask me about Django query optimization, N+1 queries, DRF, or publishing Python packages.
 
-## Featured project
+## Featured projects
 
 <table>
   <tr>
@@ -51,11 +51,38 @@ for book in books:
     print(book.author.name)  # already loaded — no accidental query
 ```
 
+<table>
+  <tr>
+    <td width="68%">
+      <h3><a href="https://github.com/yassinbahri/django-index-optimizer">django-index-optimizer</a></h3>
+      <p>Analyze PostgreSQL <code>pg_stat_statements</code> data and turn recurring query patterns into actionable index recommendations for Django applications.</p>
+      <p><strong>Current focus:</strong> safer index application, modern PostgreSQL support, and a contributor-friendly test suite.</p>
+      <p>
+        <a href="https://pypi.org/project/django-index-optimizer/">Install from PyPI</a>
+        ·
+        <a href="https://pypistats.org/packages/django-index-optimizer">View download statistics</a>
+        ·
+        <a href="https://github.com/yassinbahri/django-index-optimizer/issues">Contribute</a>
+      </p>
+    </td>
+    <td width="32%" align="center">
+      <a href="https://pypi.org/project/django-index-optimizer/"><img alt="django-index-optimizer version" src="https://img.shields.io/pypi/v/django-index-optimizer?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
+      <br/>
+      <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B" /></a>
+      <br/><br/>
+      <code>pip install<br/>django-index-optimizer</code>
+    </td>
+  </tr>
+</table>
+
+<sub>PyPI Stats snapshot on 2026-07-30: <strong>31</strong> downloads in the last month · <strong>8</strong> in the last week · <strong>0</strong> in the last day.</sub>
+
 ## Open-source work
 
 | Project | Role | Focus |
 | --- | --- | --- |
 | [django-fetch-guard](https://github.com/yassinbahri/django-fetch-guard) | Creator & maintainer | Django ORM performance and predictable fetching |
+| [django-index-optimizer](https://github.com/yassinbahri/django-index-optimizer) | Creator & maintainer | PostgreSQL query analysis and index recommendations |
 | [Django ecosystem](https://github.com/search?q=is%3Apr+author%3Ayassinbahri&type=pullrequests) | Contributor | Focused fixes, regression tests, and documentation |
 
 > I prefer small, well-tested contributions that solve a real problem. My public pull requests are collected [here](https://github.com/search?q=is%3Apr+author%3Ayassinbahri&type=pullrequests).
