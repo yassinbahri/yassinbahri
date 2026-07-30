@@ -61,7 +61,7 @@ I'm a Python and Django developer interested in **ORM performance**, **REST APIs
     <td width="34%" align="center">
       <a href="https://pypi.org/project/django-index-optimizer/"><img alt="django-index-optimizer version" src="https://img.shields.io/pypi/v/django-index-optimizer?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
       <br/>
-      <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B&cacheSeconds=86400" /></a>
+      <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B" /></a>
       <br/><br/>
       <strong>Django 5.2–6.0</strong><br/>
       <strong>Python 3.10+</strong>
