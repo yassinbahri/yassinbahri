@@ -21,20 +21,22 @@ I'm a Python and Django developer interested in **ORM performance**, **REST APIs
 
 <table>
   <tr>
-    <td width="68%">
+    <td width="66%">
       <h3><a href="https://github.com/yassinbahri/django-fetch-guard">django-fetch-guard</a></h3>
       <p>Prevent Django N+1 queries and accidental lazy database fetches with explicit fetch policies and automatic batching.</p>
-      <p><strong>Why it exists:</strong> database access should be intentional, visible, and easy to test.</p>
+      <p><strong>Focus:</strong> predictable ORM access across Django 4.2–6.1, DRF integration, and testable fetch contracts.</p>
       <p>
-        <a href="https://pypi.org/project/django-fetch-guard/">Install from PyPI</a>
+        <a href="https://pypi.org/project/django-fetch-guard/">PyPI</a>
         ·
-        <a href="https://github.com/yassinbahri/django-fetch-guard#readme">Read the docs</a>
+        <a href="https://github.com/yassinbahri/django-fetch-guard#readme">Documentation</a>
         ·
         <a href="https://github.com/yassinbahri/django-fetch-guard/issues">Contribute</a>
       </p>
     </td>
-    <td width="32%" align="center">
-      <code>pip install<br/>django-fetch-guard</code>
+    <td width="34%" align="center">
+      <a href="https://pypi.org/project/django-fetch-guard/"><img alt="django-fetch-guard version" src="https://img.shields.io/pypi/v/django-fetch-guard?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
+      <br/>
+      <a href="https://pypistats.org/packages/django-fetch-guard"><img alt="django-fetch-guard monthly downloads" src="https://img.shields.io/pypi/dm/django-fetch-guard?style=flat-square&color=44B78B" /></a>
       <br/><br/>
       <strong>Django 4.2–6.1</strong><br/>
       <strong>Python 3.10+</strong>
@@ -42,40 +44,30 @@ I'm a Python and Django developer interested in **ORM performance**, **REST APIs
   </tr>
 </table>
 
-```python
-from fetch_guard import strict
-
-books = strict(Book.objects.select_related("author"))
-
-for book in books:
-    print(book.author.name)  # already loaded — no accidental query
-```
-
 <table>
   <tr>
-    <td width="68%">
+    <td width="66%">
       <h3><a href="https://github.com/yassinbahri/django-index-optimizer">django-index-optimizer</a></h3>
       <p>Analyze PostgreSQL <code>pg_stat_statements</code> data and turn recurring query patterns into actionable index recommendations for Django applications.</p>
-      <p><strong>Current focus:</strong> safer index application, modern PostgreSQL support, and a contributor-friendly test suite.</p>
+      <p><strong>Focus:</strong> preview-first recommendations, modern PostgreSQL support, and safe, reviewable index creation.</p>
       <p>
-        <a href="https://pypi.org/project/django-index-optimizer/">Install from PyPI</a>
+        <a href="https://pypi.org/project/django-index-optimizer/">PyPI</a>
         ·
-        <a href="https://pypistats.org/packages/django-index-optimizer">View download statistics</a>
+        <a href="https://github.com/yassinbahri/django-index-optimizer#readme">Documentation</a>
         ·
         <a href="https://github.com/yassinbahri/django-index-optimizer/issues">Contribute</a>
       </p>
     </td>
-    <td width="32%" align="center">
+    <td width="34%" align="center">
       <a href="https://pypi.org/project/django-index-optimizer/"><img alt="django-index-optimizer version" src="https://img.shields.io/pypi/v/django-index-optimizer?style=flat-square&logo=pypi&logoColor=white&color=3775A9" /></a>
       <br/>
       <a href="https://pypistats.org/packages/django-index-optimizer"><img alt="django-index-optimizer monthly downloads" src="https://img.shields.io/pypi/dm/django-index-optimizer?style=flat-square&color=44B78B" /></a>
       <br/><br/>
-      <code>pip install<br/>django-index-optimizer</code>
+      <strong>Django 5.2–6.0</strong><br/>
+      <strong>Python 3.10+</strong>
     </td>
   </tr>
 </table>
-
-<sub>PyPI Stats snapshot on 2026-07-30: <strong>31</strong> downloads in the last month · <strong>8</strong> in the last week · <strong>0</strong> in the last day.</sub>
 
 ## Open-source work
 
