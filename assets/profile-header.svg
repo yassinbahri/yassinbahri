@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Yassin Bahri — Python developer and open-source maintainer</title>
-  <desc id="desc">Dark green and blue banner with a database and connected nodes representing traceable data pipelines and predictable backends.</desc>
+  <title id="title">Yassin Bahri — Python developer building agent infrastructure and open-source tools</title>
+  <desc id="desc">Dark green and blue banner with connected mesh nodes and a database representing safe reuse, traceable data pipelines, and predictable backends.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#071b14"/>
@@ -42,7 +42,7 @@
   </g>
 
   <text x="72" y="116" fill="#ffffff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="53" font-weight="700" letter-spacing="-.8">Yassin Bahri</text>
-  <text x="74" y="164" fill="#9de6c9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">PYTHON · DJANGO · SAP DATA · OPEN SOURCE</text>
+  <text x="74" y="164" fill="#9de6c9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">PYTHON · AI AGENTS · DJANGO · OPEN SOURCE</text>
   <rect x="73" y="190" width="548" height="1" fill="#ffffff" opacity=".16"/>
-  <text x="74" y="231" fill="#d6eee5" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">Building traceable data pipelines and predictable backends.</text>
+  <text x="74" y="231" fill="#d6eee5" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">Building safe reuse layers, traceable data pipelines, and predictable backends.</text>
 </svg>
